@@ -98,7 +98,6 @@ python .\makedata.py
 python .\volrender.py --dir .\sphere-cuboid\
 ```
 
-
 # Controls
 
 The window opened from `volrender.py` has some controls, which I  discovered upon inspecting the code.
@@ -107,4 +106,8 @@ The window opened from `volrender.py` has some controls, which I  discovered upo
 2. Pressing right or left arrow will sort of rotate the image in one mode and zoom the sphere in another.
 3. Pressing `esc` key will close the window and stop the application
 4. When on Slice Render Mode, Pressing x, y, z will change the perspective.
+
+# Demonstration
+
+[VolRender.webm](https://github.com/sanjeevmaharjan/volume-ray-casting/assets/10544486/471eafb8-5808-4528-937e-1778f5481524)
 
