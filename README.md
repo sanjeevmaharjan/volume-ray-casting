@@ -48,7 +48,7 @@ pip install -r <path_to>requirements.txt
 ```
 
 > After installing dependencies, there were some problems which is probably because of different version of glfw from the code author.
-> After I fixed the code and changed image size, my git diff looks like this.
+> I updated some args on some glfw functions and changed a few things, after which my git diff looks like this.
 ```patch
 diff --git a/raycube.py b/raycube.py
 index fd70b38..e166513 100644
